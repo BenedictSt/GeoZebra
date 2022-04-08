@@ -1,0 +1,816 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F01192227B6E7F100957F2F /* ParameterEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F01192127B6E7F100957F2F /* ParameterEditor.swift */; };
+		8F01192427B6F41600957F2F /* Animationen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F01192327B6F41600957F2F /* Animationen.swift */; };
+		8F0B227527DE92F300036879 /* CreditList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0B227427DE92F300036879 /* CreditList.swift */; };
+		8F1E47EE27D3CE2A00225F6C /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1E47ED27D3CE2A00225F6C /* WelcomeView.swift */; };
+		8F1E47F127D3E1F000225F6C /* LicenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1E47F027D3E1F000225F6C /* LicenseView.swift */; };
+		8F2F7E7C27D7C6580032FA39 /* jquery.js in Resources */ = {isa = PBXBuildFile; fileRef = 8F2F7E7B27D7C6580032FA39 /* jquery.js */; };
+		8F3CAAE727748FB4006A7796 /* Funktionseditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3CAAE627748FB3006A7796 /* Funktionseditor.swift */; };
+		8F3CAAE9277500BC006A7796 /* Zahlen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3CAAE8277500BC006A7796 /* Zahlen.swift */; };
+		8F44936D2798796200E036EC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F44936C2798796200E036EC /* Extensions.swift */; };
+		8F5921722782369F00423347 /* DebugPrimitivs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5921712782369F00423347 /* DebugPrimitivs.swift */; };
+		8F601DE627CA6C2F00BF3E96 /* LexerKlasssen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F601DE527CA6C2F00BF3E96 /* LexerKlasssen.swift */; };
+		8F68D76C27785EB00058A53F /* LaTexWebEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F68D76B27785EB00058A53F /* LaTexWebEditor.swift */; };
+		8F68D77F277866DE0058A53F /* mathquill.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 8F68D76E277866DE0058A53F /* mathquill.min.js */; };
+		8F68D780277866DE0058A53F /* matheditor.css in Resources */ = {isa = PBXBuildFile; fileRef = 8F68D76F277866DE0058A53F /* matheditor.css */; };
+		8F68D781277866DE0058A53F /* matheditor.js in Resources */ = {isa = PBXBuildFile; fileRef = 8F68D770277866DE0058A53F /* matheditor.js */; };
+		8F68D782277866DE0058A53F /* mathquill.js in Resources */ = {isa = PBXBuildFile; fileRef = 8F68D771277866DE0058A53F /* mathquill.js */; };
+		8F68D783277866DE0058A53F /* mathquill.css in Resources */ = {isa = PBXBuildFile; fileRef = 8F68D772277866DE0058A53F /* mathquill.css */; };
+		8F68D784277866DE0058A53F /* Symbola.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8F68D774277866DE0058A53F /* Symbola.svg */; };
+		8F68D785277866DE0058A53F /* Symbola-basic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 8F68D775277866DE0058A53F /* Symbola-basic.woff2 */; };
+		8F68D786277866DE0058A53F /* Symbola.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 8F68D776277866DE0058A53F /* Symbola.woff2 */; };
+		8F68D787277866DE0058A53F /* Symbola-basic.eot in Resources */ = {isa = PBXBuildFile; fileRef = 8F68D777277866DE0058A53F /* Symbola-basic.eot */; };
+		8F68D788277866DE0058A53F /* Symbola.woff in Resources */ = {isa = PBXBuildFile; fileRef = 8F68D778277866DE0058A53F /* Symbola.woff */; };
+		8F68D789277866DE0058A53F /* Symbola.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F68D779277866DE0058A53F /* Symbola.ttf */; };
+		8F68D78A277866DE0058A53F /* Symbola-basic.woff in Resources */ = {isa = PBXBuildFile; fileRef = 8F68D77A277866DE0058A53F /* Symbola-basic.woff */; };
+		8F68D78B277866DE0058A53F /* Symbola.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8F68D77B277866DE0058A53F /* Symbola.otf */; };
+		8F68D78C277866DE0058A53F /* Symbola-basic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F68D77C277866DE0058A53F /* Symbola-basic.ttf */; };
+		8F68D78D277866DE0058A53F /* Symbola.eot in Resources */ = {isa = PBXBuildFile; fileRef = 8F68D77D277866DE0058A53F /* Symbola.eot */; };
+		8F68D78E277866DE0058A53F /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 8F68D77E277866DE0058A53F /* index.html */; };
+		8F691D44277FBBB30039277C /* ParameterMaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F691D43277FBBB30039277C /* ParameterMaster.swift */; };
+		8F706AEE27989DE20097EA02 /* ViewPortBegrenzung.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F706AED27989DE20097EA02 /* ViewPortBegrenzung.swift */; };
+		8F7B492A279729F1007231C1 /* KoordinatenEinstellungenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7B4929279729F1007231C1 /* KoordinatenEinstellungenView.swift */; };
+		8F9FFD7727A5D19600F53F0B /* GeoZebraPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9FFD7627A5D19600F53F0B /* GeoZebraPreferences.swift */; };
+		8FA3A50E2778A5840040CDC6 /* FunktionInTabelle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA3A50D2778A5840040CDC6 /* FunktionInTabelle.swift */; };
+		8FA53904279F3980005AC3F0 /* GraphEinstellungen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA53903279F3980005AC3F0 /* GraphEinstellungen.swift */; };
+		8FA53906279F3E2C005AC3F0 /* MessagePublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA53905279F3E2C005AC3F0 /* MessagePublisher.swift */; };
+		8FB60A6F279C39FE0049ED46 /* LatexWebPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB60A6E279C39FE0049ED46 /* LatexWebPreview.swift */; };
+		8FC1C18F2773A1BC0083761D /* GeoZebraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC1C18E2773A1BC0083761D /* GeoZebraApp.swift */; };
+		8FC1C1932773A1BE0083761D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FC1C1922773A1BE0083761D /* Assets.xcassets */; };
+		8FC1C1962773A1BE0083761D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FC1C1952773A1BE0083761D /* Preview Assets.xcassets */; };
+		8FC1C19B2773A1BE0083761D /* GeoZebra.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8FC1C1992773A1BE0083761D /* GeoZebra.xcdatamodeld */; };
+		8FC1C1DD2773A5160083761D /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC1C1D02773A5160083761D /* Renderer.swift */; };
+		8FC1C1DE2773A5160083761D /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 8FC1C1D12773A5160083761D /* Shaders.metal */; };
+		8FC1C1DF2773A5160083761D /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC1C1D22773A5160083761D /* Math.swift */; };
+		8FC1C1E02773A5160083761D /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC1C1D32773A5160083761D /* Types.swift */; };
+		8FC1C1E12773A5160083761D /* MetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC1C1D42773A5160083761D /* MetalView.swift */; };
+		8FC1C1E22773A5160083761D /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC1C1D62773A5160083761D /* Scene.swift */; };
+		8FC1C1E32773A5160083761D /* Primitive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC1C1D72773A5160083761D /* Primitive.swift */; };
+		8FC1C1E52773A5160083761D /* FunktionRenderNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC1C1D92773A5160083761D /* FunktionRenderNode.swift */; };
+		8FC1C1E62773A5160083761D /* KoordinatenSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC1C1DA2773A5160083761D /* KoordinatenSystem.swift */; };
+		8FC1C1E72773A5160083761D /* GraphScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC1C1DB2773A5160083761D /* GraphScene.swift */; };
+		8FC1C1E82773A5160083761D /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC1C1DC2773A5160083761D /* Node.swift */; };
+		8FC1C1EA2773A5690083761D /* MetalViewWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC1C1E92773A5690083761D /* MetalViewWrapper.swift */; };
+		8FC1C1EE2773B9F90083761D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC1C1ED2773B9F90083761D /* MainView.swift */; };
+		8FC1C1F32773BC8B0083761D /* FunktionsProtokol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC1C1F22773BC8B0083761D /* FunktionsProtokol.swift */; };
+		8FC736622794A666001360D3 /* RenderText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC736612794A666001360D3 /* RenderText.swift */; };
+		8FCBBC9E277E6076003C58F9 /* FunktionsEinstellungen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCBBC9D277E6076003C58F9 /* FunktionsEinstellungen.swift */; };
+		8FCBBCA0277E6084003C58F9 /* Koordinatensystemeinstellungen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCBBC9F277E6084003C58F9 /* Koordinatensystemeinstellungen.swift */; };
+		8FCF2B35279CA38B00AABE28 /* FunktionsBerechnungenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCF2B34279CA38B00AABE28 /* FunktionsBerechnungenView.swift */; };
+		8FD007BB27772FC70092C7ED /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD007BA27772FC70092C7ED /* DataModel.swift */; };
+		8FD007BE277775A50092C7ED /* Potenz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD007BD277775A50092C7ED /* Potenz.swift */; };
+		8FD007C0277775AD0092C7ED /* Addieren.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD007BF277775AD0092C7ED /* Addieren.swift */; };
+		8FD007C2277775B70092C7ED /* Multiplizieren.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD007C1277775B70092C7ED /* Multiplizieren.swift */; };
+		8FD007C4277775C90092C7ED /* Dividieren.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD007C3277775C90092C7ED /* Dividieren.swift */; };
+		8FD007C6277776260092C7ED /* Sinus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD007C5277776260092C7ED /* Sinus.swift */; };
+		8FE178CA2788BF14002A25F7 /* Ziffer0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE178C92788BF14002A25F7 /* Ziffer0.swift */; };
+		8FE178CD2788C5E6002A25F7 /* Ziffer1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE178CC2788C5E6002A25F7 /* Ziffer1.swift */; };
+		8FE178D82788C64E002A25F7 /* Ziffer5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE178CE2788C64D002A25F7 /* Ziffer5.swift */; };
+		8FE178D92788C64E002A25F7 /* Ziffer7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE178CF2788C64D002A25F7 /* Ziffer7.swift */; };
+		8FE178DA2788C64E002A25F7 /* Ziffer8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE178D02788C64D002A25F7 /* Ziffer8.swift */; };
+		8FE178DB2788C64E002A25F7 /* Ziffer9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE178D12788C64D002A25F7 /* Ziffer9.swift */; };
+		8FE178DC2788C64E002A25F7 /* Ziffer3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE178D22788C64D002A25F7 /* Ziffer3.swift */; };
+		8FE178DD2788C64E002A25F7 /* Ziffer6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE178D32788C64D002A25F7 /* Ziffer6.swift */; };
+		8FE178DE2788C64E002A25F7 /* ZifferMinus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE178D42788C64D002A25F7 /* ZifferMinus.swift */; };
+		8FE178DF2788C64E002A25F7 /* ZifferKomma.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE178D52788C64D002A25F7 /* ZifferKomma.swift */; };
+		8FE178E02788C64E002A25F7 /* Ziffer2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE178D62788C64D002A25F7 /* Ziffer2.swift */; };
+		8FE178E12788C64E002A25F7 /* Ziffer4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE178D72788C64E002A25F7 /* Ziffer4.swift */; };
+		8FFEED9D2778C713006BF978 /* Wurzel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFEED9C2778C713006BF978 /* Wurzel.swift */; };
+		8FFEED9F2778C97B006BF978 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFEED9E2778C97B006BF978 /* Log.swift */; };
+		8FFEEDA12778D133006BF978 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFEEDA02778D133006BF978 /* Parser.swift */; };
+		8FFEEDA32778E758006BF978 /* Lexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFEEDA22778E758006BF978 /* Lexer.swift */; };
+		B72B19B127B2D30F001CBA4A /* Funktion.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72B19B027B2D30F001CBA4A /* Funktion.swift */; };
+		B72B19B327B2D47F001CBA4A /* Funktion_Berechne_Integral.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72B19B227B2D47F001CBA4A /* Funktion_Berechne_Integral.swift */; };
+		B72B19B527B2D4E7001CBA4A /* Funktion_Definitionsluecke.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72B19B427B2D4E7001CBA4A /* Funktion_Definitionsluecke.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8F01192127B6E7F100957F2F /* ParameterEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterEditor.swift; sourceTree = "<group>"; };
+		8F01192327B6F41600957F2F /* Animationen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animationen.swift; sourceTree = "<group>"; };
+		8F0B227427DE92F300036879 /* CreditList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditList.swift; sourceTree = "<group>"; };
+		8F1E47ED27D3CE2A00225F6C /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		8F1E47F027D3E1F000225F6C /* LicenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicenseView.swift; sourceTree = "<group>"; };
+		8F2F7E7B27D7C6580032FA39 /* jquery.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.js; sourceTree = "<group>"; };
+		8F3CAAE627748FB3006A7796 /* Funktionseditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Funktionseditor.swift; sourceTree = "<group>"; };
+		8F3CAAE8277500BC006A7796 /* Zahlen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zahlen.swift; sourceTree = "<group>"; };
+		8F44936C2798796200E036EC /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		8F4CB7FE279C9A5000D06042 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F5921712782369F00423347 /* DebugPrimitivs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugPrimitivs.swift; sourceTree = "<group>"; };
+		8F601DE527CA6C2F00BF3E96 /* LexerKlasssen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LexerKlasssen.swift; sourceTree = "<group>"; };
+		8F68D76B27785EB00058A53F /* LaTexWebEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaTexWebEditor.swift; sourceTree = "<group>"; };
+		8F68D76E277866DE0058A53F /* mathquill.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = mathquill.min.js; sourceTree = "<group>"; };
+		8F68D76F277866DE0058A53F /* matheditor.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = matheditor.css; sourceTree = "<group>"; };
+		8F68D770277866DE0058A53F /* matheditor.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = matheditor.js; sourceTree = "<group>"; wrapsLines = 0; };
+		8F68D771277866DE0058A53F /* mathquill.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = mathquill.js; sourceTree = "<group>"; };
+		8F68D772277866DE0058A53F /* mathquill.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = mathquill.css; sourceTree = "<group>"; };
+		8F68D774277866DE0058A53F /* Symbola.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Symbola.svg; sourceTree = "<group>"; };
+		8F68D775277866DE0058A53F /* Symbola-basic.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Symbola-basic.woff2"; sourceTree = "<group>"; };
+		8F68D776277866DE0058A53F /* Symbola.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Symbola.woff2; sourceTree = "<group>"; };
+		8F68D777277866DE0058A53F /* Symbola-basic.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Symbola-basic.eot"; sourceTree = "<group>"; };
+		8F68D778277866DE0058A53F /* Symbola.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = Symbola.woff; sourceTree = "<group>"; };
+		8F68D779277866DE0058A53F /* Symbola.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Symbola.ttf; sourceTree = "<group>"; };
+		8F68D77A277866DE0058A53F /* Symbola-basic.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Symbola-basic.woff"; sourceTree = "<group>"; };
+		8F68D77B277866DE0058A53F /* Symbola.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Symbola.otf; sourceTree = "<group>"; };
+		8F68D77C277866DE0058A53F /* Symbola-basic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Symbola-basic.ttf"; sourceTree = "<group>"; };
+		8F68D77D277866DE0058A53F /* Symbola.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = Symbola.eot; sourceTree = "<group>"; };
+		8F68D77E277866DE0058A53F /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		8F691D43277FBBB30039277C /* ParameterMaster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterMaster.swift; sourceTree = "<group>"; };
+		8F706AED27989DE20097EA02 /* ViewPortBegrenzung.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewPortBegrenzung.swift; sourceTree = "<group>"; };
+		8F7B4929279729F1007231C1 /* KoordinatenEinstellungenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoordinatenEinstellungenView.swift; sourceTree = "<group>"; };
+		8F9FFD7627A5D19600F53F0B /* GeoZebraPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoZebraPreferences.swift; sourceTree = "<group>"; };
+		8FA3A50D2778A5840040CDC6 /* FunktionInTabelle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunktionInTabelle.swift; sourceTree = "<group>"; };
+		8FA53903279F3980005AC3F0 /* GraphEinstellungen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphEinstellungen.swift; sourceTree = "<group>"; };
+		8FA53905279F3E2C005AC3F0 /* MessagePublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagePublisher.swift; sourceTree = "<group>"; };
+		8FB60A6E279C39FE0049ED46 /* LatexWebPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatexWebPreview.swift; sourceTree = "<group>"; };
+		8FC1C18B2773A1BC0083761D /* GeoZebra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoZebra.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FC1C18E2773A1BC0083761D /* GeoZebraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoZebraApp.swift; sourceTree = "<group>"; };
+		8FC1C1922773A1BE0083761D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8FC1C1952773A1BE0083761D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8FC1C19A2773A1BE0083761D /* GeoZebra.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GeoZebra.xcdatamodel; sourceTree = "<group>"; };
+		8FC1C19C2773A1BE0083761D /* GeoZebra.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GeoZebra.entitlements; sourceTree = "<group>"; };
+		8FC1C1D02773A5160083761D /* Renderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
+		8FC1C1D12773A5160083761D /* Shaders.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+		8FC1C1D22773A5160083761D /* Math.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
+		8FC1C1D32773A5160083761D /* Types.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
+		8FC1C1D42773A5160083761D /* MetalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetalView.swift; sourceTree = "<group>"; };
+		8FC1C1D62773A5160083761D /* Scene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
+		8FC1C1D72773A5160083761D /* Primitive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Primitive.swift; sourceTree = "<group>"; };
+		8FC1C1D92773A5160083761D /* FunktionRenderNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunktionRenderNode.swift; sourceTree = "<group>"; };
+		8FC1C1DA2773A5160083761D /* KoordinatenSystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KoordinatenSystem.swift; sourceTree = "<group>"; };
+		8FC1C1DB2773A5160083761D /* GraphScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphScene.swift; sourceTree = "<group>"; };
+		8FC1C1DC2773A5160083761D /* Node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		8FC1C1E92773A5690083761D /* MetalViewWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalViewWrapper.swift; sourceTree = "<group>"; };
+		8FC1C1ED2773B9F90083761D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		8FC1C1F22773BC8B0083761D /* FunktionsProtokol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunktionsProtokol.swift; sourceTree = "<group>"; };
+		8FC736612794A666001360D3 /* RenderText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenderText.swift; sourceTree = "<group>"; };
+		8FCBBC9D277E6076003C58F9 /* FunktionsEinstellungen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunktionsEinstellungen.swift; sourceTree = "<group>"; };
+		8FCBBC9F277E6084003C58F9 /* Koordinatensystemeinstellungen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Koordinatensystemeinstellungen.swift; sourceTree = "<group>"; };
+		8FCF2B34279CA38B00AABE28 /* FunktionsBerechnungenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunktionsBerechnungenView.swift; sourceTree = "<group>"; };
+		8FD007BA27772FC70092C7ED /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		8FD007BD277775A50092C7ED /* Potenz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Potenz.swift; sourceTree = "<group>"; };
+		8FD007BF277775AD0092C7ED /* Addieren.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Addieren.swift; sourceTree = "<group>"; };
+		8FD007C1277775B70092C7ED /* Multiplizieren.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multiplizieren.swift; sourceTree = "<group>"; };
+		8FD007C3277775C90092C7ED /* Dividieren.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dividieren.swift; sourceTree = "<group>"; };
+		8FD007C5277776260092C7ED /* Sinus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sinus.swift; sourceTree = "<group>"; };
+		8FE178C92788BF14002A25F7 /* Ziffer0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ziffer0.swift; sourceTree = "<group>"; };
+		8FE178CC2788C5E6002A25F7 /* Ziffer1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ziffer1.swift; sourceTree = "<group>"; };
+		8FE178CE2788C64D002A25F7 /* Ziffer5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ziffer5.swift; sourceTree = "<group>"; };
+		8FE178CF2788C64D002A25F7 /* Ziffer7.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ziffer7.swift; sourceTree = "<group>"; };
+		8FE178D02788C64D002A25F7 /* Ziffer8.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ziffer8.swift; sourceTree = "<group>"; };
+		8FE178D12788C64D002A25F7 /* Ziffer9.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ziffer9.swift; sourceTree = "<group>"; };
+		8FE178D22788C64D002A25F7 /* Ziffer3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ziffer3.swift; sourceTree = "<group>"; };
+		8FE178D32788C64D002A25F7 /* Ziffer6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ziffer6.swift; sourceTree = "<group>"; };
+		8FE178D42788C64D002A25F7 /* ZifferMinus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZifferMinus.swift; sourceTree = "<group>"; };
+		8FE178D52788C64D002A25F7 /* ZifferKomma.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZifferKomma.swift; sourceTree = "<group>"; };
+		8FE178D62788C64D002A25F7 /* Ziffer2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ziffer2.swift; sourceTree = "<group>"; };
+		8FE178D72788C64E002A25F7 /* Ziffer4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ziffer4.swift; sourceTree = "<group>"; };
+		8FFEED9C2778C713006BF978 /* Wurzel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wurzel.swift; sourceTree = "<group>"; };
+		8FFEED9E2778C97B006BF978 /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		8FFEEDA02778D133006BF978 /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		8FFEEDA22778E758006BF978 /* Lexer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lexer.swift; sourceTree = "<group>"; };
+		B72B19B027B2D30F001CBA4A /* Funktion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Funktion.swift; sourceTree = "<group>"; };
+		B72B19B227B2D47F001CBA4A /* Funktion_Berechne_Integral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Funktion_Berechne_Integral.swift; sourceTree = "<group>"; };
+		B72B19B427B2D4E7001CBA4A /* Funktion_Definitionsluecke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Funktion_Definitionsluecke.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FC1C1882773A1BC0083761D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F1E47EF27D3E1DF00225F6C /* Tour */ = {
+			isa = PBXGroup;
+			children = (
+				8F1E47ED27D3CE2A00225F6C /* WelcomeView.swift */,
+				8F1E47F027D3E1F000225F6C /* LicenseView.swift */,
+			);
+			path = Tour;
+			sourceTree = "<group>";
+		};
+		8F44936A279873F000E036EC /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				8FC1C1D62773A5160083761D /* Scene.swift */,
+				8FC1C1DB2773A5160083761D /* GraphScene.swift */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		8F44936B2798741100E036EC /* support */ = {
+			isa = PBXGroup;
+			children = (
+				8FC1C1D02773A5160083761D /* Renderer.swift */,
+				8FC1C1E92773A5690083761D /* MetalViewWrapper.swift */,
+				8FC1C1D12773A5160083761D /* Shaders.metal */,
+				8FC1C1D32773A5160083761D /* Types.swift */,
+				8FC1C1D22773A5160083761D /* Math.swift */,
+			);
+			path = support;
+			sourceTree = "<group>";
+		};
+		8F68D76A27785E9D0058A53F /* Editor */ = {
+			isa = PBXGroup;
+			children = (
+				8F68D77E277866DE0058A53F /* index.html */,
+				8F68D76D277866DE0058A53F /* lib */,
+				8F68D76B27785EB00058A53F /* LaTexWebEditor.swift */,
+				8FB60A6E279C39FE0049ED46 /* LatexWebPreview.swift */,
+			);
+			path = Editor;
+			sourceTree = "<group>";
+		};
+		8F68D76D277866DE0058A53F /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				8F2F7E7B27D7C6580032FA39 /* jquery.js */,
+				8F68D76E277866DE0058A53F /* mathquill.min.js */,
+				8F68D76F277866DE0058A53F /* matheditor.css */,
+				8F68D770277866DE0058A53F /* matheditor.js */,
+				8F68D771277866DE0058A53F /* mathquill.js */,
+				8F68D772277866DE0058A53F /* mathquill.css */,
+				8F68D773277866DE0058A53F /* font */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		8F68D773277866DE0058A53F /* font */ = {
+			isa = PBXGroup;
+			children = (
+				8F68D774277866DE0058A53F /* Symbola.svg */,
+				8F68D775277866DE0058A53F /* Symbola-basic.woff2 */,
+				8F68D776277866DE0058A53F /* Symbola.woff2 */,
+				8F68D777277866DE0058A53F /* Symbola-basic.eot */,
+				8F68D778277866DE0058A53F /* Symbola.woff */,
+				8F68D779277866DE0058A53F /* Symbola.ttf */,
+				8F68D77A277866DE0058A53F /* Symbola-basic.woff */,
+				8F68D77B277866DE0058A53F /* Symbola.otf */,
+				8F68D77C277866DE0058A53F /* Symbola-basic.ttf */,
+				8F68D77D277866DE0058A53F /* Symbola.eot */,
+			);
+			path = font;
+			sourceTree = "<group>";
+		};
+		8FC1C1822773A1BC0083761D = {
+			isa = PBXGroup;
+			children = (
+				8FC1C18D2773A1BC0083761D /* GeoZebra */,
+				8FC1C18C2773A1BC0083761D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8FC1C18C2773A1BC0083761D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FC1C18B2773A1BC0083761D /* GeoZebra.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FC1C18D2773A1BC0083761D /* GeoZebra */ = {
+			isa = PBXGroup;
+			children = (
+				8FC1C19C2773A1BE0083761D /* GeoZebra.entitlements */,
+				8F4CB7FE279C9A5000D06042 /* Info.plist */,
+				8F68D76A27785E9D0058A53F /* Editor */,
+				8FF8BF6E27A86BEE00821B82 /* other */,
+				8FF8BF6F27A86C1100821B82 /* Data */,
+				8FC1C1F12773BC7E0083761D /* Mathe */,
+				8FC1C1A22773A1E10083761D /* Metal */,
+				8FC1C18E2773A1BC0083761D /* GeoZebraApp.swift */,
+				8FC1C1942773A1BE0083761D /* Preview Content */,
+				8FC1C1ED2773B9F90083761D /* MainView.swift */,
+				8F9FFD7627A5D19600F53F0B /* GeoZebraPreferences.swift */,
+				8F0B227427DE92F300036879 /* CreditList.swift */,
+				B7B9722C27D3748C00602943 /* PopUps */,
+				B7B9722B27D3746D00602943 /* MainViewViews */,
+				B7B9722A27D3745600602943 /* Editoren */,
+			);
+			path = GeoZebra;
+			sourceTree = "<group>";
+		};
+		8FC1C1942773A1BE0083761D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8FC1C1952773A1BE0083761D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8FC1C1A22773A1E10083761D /* Metal */ = {
+			isa = PBXGroup;
+			children = (
+				8F44936B2798741100E036EC /* support */,
+				8FC1C1D42773A5160083761D /* MetalView.swift */,
+				8F44936A279873F000E036EC /* Scene */,
+				8FC1C1D52773A5160083761D /* Node */,
+			);
+			path = Metal;
+			sourceTree = "<group>";
+		};
+		8FC1C1D52773A5160083761D /* Node */ = {
+			isa = PBXGroup;
+			children = (
+				8FC736612794A666001360D3 /* RenderText.swift */,
+				8FE178CB2788C1E5002A25F7 /* Ziffern */,
+				8FC1C1D72773A5160083761D /* Primitive.swift */,
+				8FC1C1D92773A5160083761D /* FunktionRenderNode.swift */,
+				8FC1C1DA2773A5160083761D /* KoordinatenSystem.swift */,
+				8FC1C1DC2773A5160083761D /* Node.swift */,
+				8F5921712782369F00423347 /* DebugPrimitivs.swift */,
+			);
+			path = Node;
+			sourceTree = "<group>";
+		};
+		8FC1C1F12773BC7E0083761D /* Mathe */ = {
+			isa = PBXGroup;
+			children = (
+				8FFEEDA02778D133006BF978 /* Parser.swift */,
+				8FFEEDA22778E758006BF978 /* Lexer.swift */,
+				8F601DE527CA6C2F00BF3E96 /* LexerKlasssen.swift */,
+				8FD007BC277775950092C7ED /* Operationen */,
+				8FC1C1F22773BC8B0083761D /* FunktionsProtokol.swift */,
+				B72B19B027B2D30F001CBA4A /* Funktion.swift */,
+				B72B19B427B2D4E7001CBA4A /* Funktion_Definitionsluecke.swift */,
+				B72B19B227B2D47F001CBA4A /* Funktion_Berechne_Integral.swift */,
+				8F3CAAE8277500BC006A7796 /* Zahlen.swift */,
+			);
+			path = Mathe;
+			sourceTree = "<group>";
+		};
+		8FD007BC277775950092C7ED /* Operationen */ = {
+			isa = PBXGroup;
+			children = (
+				8FD007BD277775A50092C7ED /* Potenz.swift */,
+				8FFEED9E2778C97B006BF978 /* Log.swift */,
+				8FD007BF277775AD0092C7ED /* Addieren.swift */,
+				8FD007C1277775B70092C7ED /* Multiplizieren.swift */,
+				8FD007C3277775C90092C7ED /* Dividieren.swift */,
+				8FD007C5277776260092C7ED /* Sinus.swift */,
+				8FFEED9C2778C713006BF978 /* Wurzel.swift */,
+				8F691D43277FBBB30039277C /* ParameterMaster.swift */,
+			);
+			path = Operationen;
+			sourceTree = "<group>";
+		};
+		8FE178CB2788C1E5002A25F7 /* Ziffern */ = {
+			isa = PBXGroup;
+			children = (
+				8FE178C92788BF14002A25F7 /* Ziffer0.swift */,
+				8FE178CC2788C5E6002A25F7 /* Ziffer1.swift */,
+				8FE178D62788C64D002A25F7 /* Ziffer2.swift */,
+				8FE178D22788C64D002A25F7 /* Ziffer3.swift */,
+				8FE178D72788C64E002A25F7 /* Ziffer4.swift */,
+				8FE178CE2788C64D002A25F7 /* Ziffer5.swift */,
+				8FE178D32788C64D002A25F7 /* Ziffer6.swift */,
+				8FE178CF2788C64D002A25F7 /* Ziffer7.swift */,
+				8FE178D02788C64D002A25F7 /* Ziffer8.swift */,
+				8FE178D12788C64D002A25F7 /* Ziffer9.swift */,
+				8FE178D52788C64D002A25F7 /* ZifferKomma.swift */,
+				8FE178D42788C64D002A25F7 /* ZifferMinus.swift */,
+			);
+			path = Ziffern;
+			sourceTree = "<group>";
+		};
+		8FF8BF6E27A86BEE00821B82 /* other */ = {
+			isa = PBXGroup;
+			children = (
+				8F44936C2798796200E036EC /* Extensions.swift */,
+				8FC1C1922773A1BE0083761D /* Assets.xcassets */,
+				8FC1C1992773A1BE0083761D /* GeoZebra.xcdatamodeld */,
+			);
+			path = other;
+			sourceTree = "<group>";
+		};
+		8FF8BF6F27A86C1100821B82 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				8FD007BA27772FC70092C7ED /* DataModel.swift */,
+				8F706AED27989DE20097EA02 /* ViewPortBegrenzung.swift */,
+				8FCBBC9F277E6084003C58F9 /* Koordinatensystemeinstellungen.swift */,
+				8FA53905279F3E2C005AC3F0 /* MessagePublisher.swift */,
+				8F01192327B6F41600957F2F /* Animationen.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		B7B9722A27D3745600602943 /* Editoren */ = {
+			isa = PBXGroup;
+			children = (
+				8F3CAAE627748FB3006A7796 /* Funktionseditor.swift */,
+				8F01192127B6E7F100957F2F /* ParameterEditor.swift */,
+			);
+			path = Editoren;
+			sourceTree = "<group>";
+		};
+		B7B9722B27D3746D00602943 /* MainViewViews */ = {
+			isa = PBXGroup;
+			children = (
+				8F1E47EF27D3E1DF00225F6C /* Tour */,
+				8FA53903279F3980005AC3F0 /* GraphEinstellungen.swift */,
+				8FA3A50D2778A5840040CDC6 /* FunktionInTabelle.swift */,
+			);
+			path = MainViewViews;
+			sourceTree = "<group>";
+		};
+		B7B9722C27D3748C00602943 /* PopUps */ = {
+			isa = PBXGroup;
+			children = (
+				8FCF2B34279CA38B00AABE28 /* FunktionsBerechnungenView.swift */,
+				8FCBBC9D277E6076003C58F9 /* FunktionsEinstellungen.swift */,
+				8F7B4929279729F1007231C1 /* KoordinatenEinstellungenView.swift */,
+			);
+			path = PopUps;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8FC1C18A2773A1BC0083761D /* GeoZebra */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FC1C19F2773A1BE0083761D /* Build configuration list for PBXNativeTarget "GeoZebra" */;
+			buildPhases = (
+				8FC1C1872773A1BC0083761D /* Sources */,
+				8FC1C1882773A1BC0083761D /* Frameworks */,
+				8FC1C1892773A1BC0083761D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeoZebra;
+			productName = GeoZebra;
+			productReference = 8FC1C18B2773A1BC0083761D /* GeoZebra.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8FC1C1832773A1BC0083761D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					8FC1C18A2773A1BC0083761D = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 8FC1C1862773A1BC0083761D /* Build configuration list for PBXProject "GeoZebra" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8FC1C1822773A1BC0083761D;
+			productRefGroup = 8FC1C18C2773A1BC0083761D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FC1C18A2773A1BC0083761D /* GeoZebra */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8FC1C1892773A1BC0083761D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F68D784277866DE0058A53F /* Symbola.svg in Resources */,
+				8F68D785277866DE0058A53F /* Symbola-basic.woff2 in Resources */,
+				8F68D77F277866DE0058A53F /* mathquill.min.js in Resources */,
+				8F68D78E277866DE0058A53F /* index.html in Resources */,
+				8F68D78C277866DE0058A53F /* Symbola-basic.ttf in Resources */,
+				8FC1C1962773A1BE0083761D /* Preview Assets.xcassets in Resources */,
+				8F68D781277866DE0058A53F /* matheditor.js in Resources */,
+				8F68D78B277866DE0058A53F /* Symbola.otf in Resources */,
+				8F68D783277866DE0058A53F /* mathquill.css in Resources */,
+				8F68D78A277866DE0058A53F /* Symbola-basic.woff in Resources */,
+				8F2F7E7C27D7C6580032FA39 /* jquery.js in Resources */,
+				8F68D789277866DE0058A53F /* Symbola.ttf in Resources */,
+				8F68D786277866DE0058A53F /* Symbola.woff2 in Resources */,
+				8F68D78D277866DE0058A53F /* Symbola.eot in Resources */,
+				8F68D788277866DE0058A53F /* Symbola.woff in Resources */,
+				8F68D787277866DE0058A53F /* Symbola-basic.eot in Resources */,
+				8F68D780277866DE0058A53F /* matheditor.css in Resources */,
+				8F68D782277866DE0058A53F /* mathquill.js in Resources */,
+				8FC1C1932773A1BE0083761D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8FC1C1872773A1BC0083761D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FA3A50E2778A5840040CDC6 /* FunktionInTabelle.swift in Sources */,
+				8FD007C2277775B70092C7ED /* Multiplizieren.swift in Sources */,
+				8FC1C1EA2773A5690083761D /* MetalViewWrapper.swift in Sources */,
+				8FD007C0277775AD0092C7ED /* Addieren.swift in Sources */,
+				8FC1C1EE2773B9F90083761D /* MainView.swift in Sources */,
+				8F1E47EE27D3CE2A00225F6C /* WelcomeView.swift in Sources */,
+				8FE178D82788C64E002A25F7 /* Ziffer5.swift in Sources */,
+				8FFEED9F2778C97B006BF978 /* Log.swift in Sources */,
+				8FE178CD2788C5E6002A25F7 /* Ziffer1.swift in Sources */,
+				8F706AEE27989DE20097EA02 /* ViewPortBegrenzung.swift in Sources */,
+				8F5921722782369F00423347 /* DebugPrimitivs.swift in Sources */,
+				8FE178DD2788C64E002A25F7 /* Ziffer6.swift in Sources */,
+				8FE178DE2788C64E002A25F7 /* ZifferMinus.swift in Sources */,
+				8FC1C1E12773A5160083761D /* MetalView.swift in Sources */,
+				8FC1C1E72773A5160083761D /* GraphScene.swift in Sources */,
+				8FFEEDA32778E758006BF978 /* Lexer.swift in Sources */,
+				8F601DE627CA6C2F00BF3E96 /* LexerKlasssen.swift in Sources */,
+				8FD007BE277775A50092C7ED /* Potenz.swift in Sources */,
+				8FC1C1DD2773A5160083761D /* Renderer.swift in Sources */,
+				8FE178DC2788C64E002A25F7 /* Ziffer3.swift in Sources */,
+				8FC1C19B2773A1BE0083761D /* GeoZebra.xcdatamodeld in Sources */,
+				8FD007C6277776260092C7ED /* Sinus.swift in Sources */,
+				8FC736622794A666001360D3 /* RenderText.swift in Sources */,
+				8FE178E02788C64E002A25F7 /* Ziffer2.swift in Sources */,
+				8F3CAAE9277500BC006A7796 /* Zahlen.swift in Sources */,
+				8F3CAAE727748FB4006A7796 /* Funktionseditor.swift in Sources */,
+				8F691D44277FBBB30039277C /* ParameterMaster.swift in Sources */,
+				8FC1C1E62773A5160083761D /* KoordinatenSystem.swift in Sources */,
+				8FC1C1E82773A5160083761D /* Node.swift in Sources */,
+				8F01192427B6F41600957F2F /* Animationen.swift in Sources */,
+				8FD007C4277775C90092C7ED /* Dividieren.swift in Sources */,
+				8F1E47F127D3E1F000225F6C /* LicenseView.swift in Sources */,
+				8FA53904279F3980005AC3F0 /* GraphEinstellungen.swift in Sources */,
+				8FE178DA2788C64E002A25F7 /* Ziffer8.swift in Sources */,
+				8F0B227527DE92F300036879 /* CreditList.swift in Sources */,
+				8F68D76C27785EB00058A53F /* LaTexWebEditor.swift in Sources */,
+				8FC1C1E52773A5160083761D /* FunktionRenderNode.swift in Sources */,
+				8FFEEDA12778D133006BF978 /* Parser.swift in Sources */,
+				8F7B492A279729F1007231C1 /* KoordinatenEinstellungenView.swift in Sources */,
+				8FC1C1E02773A5160083761D /* Types.swift in Sources */,
+				8FCBBC9E277E6076003C58F9 /* FunktionsEinstellungen.swift in Sources */,
+				8FC1C18F2773A1BC0083761D /* GeoZebraApp.swift in Sources */,
+				8FC1C1DE2773A5160083761D /* Shaders.metal in Sources */,
+				8FA53906279F3E2C005AC3F0 /* MessagePublisher.swift in Sources */,
+				B72B19B327B2D47F001CBA4A /* Funktion_Berechne_Integral.swift in Sources */,
+				8FC1C1DF2773A5160083761D /* Math.swift in Sources */,
+				8FCF2B35279CA38B00AABE28 /* FunktionsBerechnungenView.swift in Sources */,
+				8FC1C1E22773A5160083761D /* Scene.swift in Sources */,
+				8FE178DF2788C64E002A25F7 /* ZifferKomma.swift in Sources */,
+				8FE178D92788C64E002A25F7 /* Ziffer7.swift in Sources */,
+				8FE178E12788C64E002A25F7 /* Ziffer4.swift in Sources */,
+				8F01192227B6E7F100957F2F /* ParameterEditor.swift in Sources */,
+				B72B19B527B2D4E7001CBA4A /* Funktion_Definitionsluecke.swift in Sources */,
+				8FC1C1E32773A5160083761D /* Primitive.swift in Sources */,
+				8FE178CA2788BF14002A25F7 /* Ziffer0.swift in Sources */,
+				B72B19B127B2D30F001CBA4A /* Funktion.swift in Sources */,
+				8FC1C1F32773BC8B0083761D /* FunktionsProtokol.swift in Sources */,
+				8F9FFD7727A5D19600F53F0B /* GeoZebraPreferences.swift in Sources */,
+				8F44936D2798796200E036EC /* Extensions.swift in Sources */,
+				8FFEED9D2778C713006BF978 /* Wurzel.swift in Sources */,
+				8FD007BB27772FC70092C7ED /* DataModel.swift in Sources */,
+				8FCBBCA0277E6084003C58F9 /* Koordinatensystemeinstellungen.swift in Sources */,
+				8FB60A6F279C39FE0049ED46 /* LatexWebPreview.swift in Sources */,
+				8FE178DB2788C64E002A25F7 /* Ziffer9.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8FC1C19D2773A1BE0083761D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8FC1C19E2773A1BE0083761D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		8FC1C1A02773A1BE0083761D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_INFOPLIST_LOCALIZATIONS = NO;
+				CODE_SIGN_ENTITLEMENTS = GeoZebra/GeoZebra.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GeoZebra/Preview Content\"";
+				DEVELOPMENT_TEAM = RB2HQ5BP7S;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GeoZebra/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LOCALIZATION_EXPORT_SUPPORTED = NO;
+				LOCALIZED_STRING_SWIFTUI_SUPPORT = NO;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bene.GeoZebra;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_STYLE = "non-global";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8FC1C1A12773A1BE0083761D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_INFOPLIST_LOCALIZATIONS = NO;
+				CODE_SIGN_ENTITLEMENTS = GeoZebra/GeoZebra.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GeoZebra/Preview Content\"";
+				DEVELOPMENT_TEAM = RB2HQ5BP7S;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GeoZebra/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LOCALIZATION_EXPORT_SUPPORTED = NO;
+				LOCALIZED_STRING_SWIFTUI_SUPPORT = NO;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bene.GeoZebra;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_STYLE = "non-global";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8FC1C1862773A1BC0083761D /* Build configuration list for PBXProject "GeoZebra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FC1C19D2773A1BE0083761D /* Debug */,
+				8FC1C19E2773A1BE0083761D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FC1C19F2773A1BE0083761D /* Build configuration list for PBXNativeTarget "GeoZebra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FC1C1A02773A1BE0083761D /* Debug */,
+				8FC1C1A12773A1BE0083761D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8FC1C1992773A1BE0083761D /* GeoZebra.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8FC1C19A2773A1BE0083761D /* GeoZebra.xcdatamodel */,
+			);
+			currentVersion = 8FC1C19A2773A1BE0083761D /* GeoZebra.xcdatamodel */;
+			path = GeoZebra.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8FC1C1832773A1BC0083761D /* Project object */;
+}

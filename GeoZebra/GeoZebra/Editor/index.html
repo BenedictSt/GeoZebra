@@ -1,0 +1,48 @@
+<html>
+	<body style="background:colorReplace;overflow:hidden;pointer-events:pointerEventType">
+		<div id="answer"></div>
+		
+	</body>
+	<script>
+		jqueryJS
+	</script>
+	<style>
+		.mq-root-block{
+			width: -webkit-calc(100vw - 20px);/*95vw;*/
+			height: -webkit-calc(100vh - 20px);
+		}
+	</style>
+	<style>
+		mathquillStyle
+	</style>
+	<style>
+		matheditorStyle
+	</style>
+	
+	<script>
+		mathquillJS
+	</script>
+	<script>
+		matheditorJS
+	</script>
+	<script>
+		document.body.setAttribute('oncontextmenu', 'event.preventDefault();');
+		function getLatexFromEditor(){
+			window.webkit.messageHandlers.callbackHandler.postMessage({latex: me.getLatex()});
+		}
+		
+		document.addEventListener('keypress', detectEnter);
+		
+		function detectEnter(e) {
+			if (e.key === 'Enter' || e.keyCode === 13) {
+				document.activeElement.blur();
+				window.webkit.messageHandlers.callbackHandler.postMessage({latex: me.getLatex()});
+			}
+		}
+	</script>
+	
+	<script type="text/javascript">
+		var me = new MathEditor('answer');
+	</script>
+	
+</html>
