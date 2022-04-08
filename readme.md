@@ -12,7 +12,7 @@
 - Funktionsscharen mit Parametern
 - Parameter animieren
 
-## Installieren
+## Installieren:
 1. Instalationsdatei [hier](https://github.com/BenedictSt/GeoZebra/releases/download/v1.0/GeoZebra.dmg) herunterladen
 2. DMG mit einem Doppelklick öffnen
 	1. optional: App in den Programme Ordner kopieren
