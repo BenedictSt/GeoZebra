@@ -59,19 +59,6 @@ struct FunktionInTabelle: View {
 							.foregroundColor(.init(.sRGB, red: 1, green: 1, blue: 1, opacity: 0.000001))
 					}
 					
-					Button(action: {
-						data.removeFunktion(id: funktionId)
-						if(fEConfig.funktionId == funktionId){
-							fEConfig.funktionId = nil
-						}
-						data.update = UUID()
-					}){
-						Image(systemName: "trash.fill")
-							.foregroundColor(.red)
-					}
-					.frame(width: 25, alignment: .trailing)
-					.id("\(funktionId) . \(fEConfig.updateId)")
-					.buttonStyle(.borderless)
 				}.frame(width: reader.size.width, height: 50, alignment: .leading)
 					.background(
 						HStack(spacing: 0){
@@ -109,6 +96,13 @@ struct FunktionInTabelle: View {
 				)
 				.contextMenu(menuItems: {
 					if let funktion = data.funktionen[funktionId]{
+						Button(action:{
+							data.removeFunktion(id: funktionId)
+							if(fEConfig.funktionId == funktionId){
+								fEConfig.funktionId = nil
+							}
+							data.update = UUID()
+						}){Text("Löschen")}
 						Button(action:{data.funktionen[funktionId]!.sichtbar.toggle();data.update = UUID()}){Text(funktion.sichtbar ? "Ausblenden" : "Einblenden")}
 						Button(action:{fEConfig.funktionId = funktionId;_ = data.addFunktion(funktion.copy())}){Text("Duplizieren")}
 						Divider()
