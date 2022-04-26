@@ -13,9 +13,8 @@
 - Parameter animieren
 
 ## Installieren:
-1. Instalationsdatei [hier](https://github.com/BenedictSt/GeoZebra/releases/download/v1.0/GeoZebra.dmg) herunterladen
-2. DMG mit einem Doppelklick öffnen
-	1. optional: App in den Programme Ordner kopieren
+1. Zipdatei [hier](https://github.com/BenedictSt/GeoZebra/releases/download/v1.1/GeoZebra.zip) herunterladen
+2. Zip mit einem Doppelklick öffnen
 3. Mit einem Rechtsklick auf die App -> "öffnen"
 	1. Schritt 3 ggf. wiederhohlen
 4. Mit "öffnen" bestätigen
