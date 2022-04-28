@@ -108,7 +108,7 @@ class ParameterSlave: FunktionProt{
 	}
 
 	func derivative(x: Float) -> Float {
-		return 1
+		return 0
 	}
 
 	func getString() -> String {
