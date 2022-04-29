@@ -17,7 +17,8 @@
 2. Zip mit einem Doppelklick öffnen
 3. Mit einem Rechtsklick auf die App -> "öffnen"
 	1. Schritt 3 ggf. wiederhohlen
-4. Mit "öffnen" bestätigen
+4. ggf. in den Systemeinstellungen -> Sicherheit mit "dennoch öffnen" bestätigen
+5. Mit "öffnen" bestätigen
 
 ## Systemvoraussetzungen: 
 macOS 11.0 Big Sur oder neuer
