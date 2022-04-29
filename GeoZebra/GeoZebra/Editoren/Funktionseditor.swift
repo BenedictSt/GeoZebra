@@ -26,9 +26,11 @@ struct Funktionseditor: View {
 					if let funktionsId = fEConfig.funktionId{
 						Image(systemName: data.funktionen[funktionsId]?.sichtbar ?? false ? "eye" : "eye.slash")
 							.resizable()
+                            .scaledToFit()
 					}else{
 						Image(systemName: "eye")
 							.resizable()
+                            .scaledToFit()
 					}
 				}.buttonStyle(.borderless)
 					.foregroundColor(hatFunktion ? .accentColor : .gray)
