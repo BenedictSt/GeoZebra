@@ -419,7 +419,7 @@ Eine weitere Möglichkeit, um *Retain Cycles* zu verhindern, ist es, eine Refere
 
 | Beziehung | Englisch | Beschreibung |
 | - | - | - |
-| stark | `strong` | hat und hält fest |
+| stark | `strong` | hat und hält fest |
 | schwach | `weak` | kann haben |
 | herrenlos | `unowned` | muss haben aber hält nicht fest | 
 
